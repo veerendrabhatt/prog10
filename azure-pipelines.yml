@@ -12,7 +12,7 @@ pool:
 steps:
 - task: Maven@3
   inputs:
-    artifactName:'dev-demo'
+    artifactName: 'dev-demo'
     mavenPomFile: 'dev-demo/pom.xml'
     mavenOptions: '-Xmx3072m'
     javaHomeOption: 'JDKVersion'
